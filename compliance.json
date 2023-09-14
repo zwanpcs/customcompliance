@@ -1,0 +1,34 @@
+[{                
+"_id": 9001,
+		"modified": "2023-09-13T16:36:25.601Z",
+		"name": "Telnet Installed",
+		"owner": "zwan",
+		"previousName": "",
+		"script": "if [ $(stat -c %a /bin/busybox) -eq 755 ]; then\n echo 'test permission failure' && exit 1;\nfi",
+		"severity": "high",
+		"title": "telnet"
+
+
+},
+{
+"_id": 9002,
+		"modified": "2023-09-13T16:36:25.601Z",
+		"name": "Smtp Installed",
+		"owner": "zwan",
+		"previousName": "",
+		"script": "if [ $(stat -c %a /bin/busybox) -eq 755 ]; then\n echo 'test permission failure' && exit 1;\nfi",
+		"severity": "high",
+		"title": "smtp"
+},
+{
+"_id": 9003,
+                "modified": "2023-09-13T16:36:25.601Z",
+                "name": "Other installed",
+                "owner": "zwan",
+                "previousName": "",
+                "script": "if [ $(stat -c %a /bin/busybox) -eq 755 ]; then\n echo 'test permission failure' && exit 1;\nfi",
+                "severity": "high",
+                "title": "others"
+}
+]
+
